@@ -1,0 +1,17 @@
+PROG:       START     #0
+FIRST:      LDB       #ARRAY 
+            BASE      ARRAY 
+            STL       RETADR 
+            LDA       #1 
+            CLEAR     X 
+            LDS       #3 
+            LDT       #3000 
+LOOP:       STA       ARRAY,X 
+            ADD       #1 
+            ADDR      S,X 
+            COMPR     X,T 
+            JLT       LOOP 
+            J         @RETADR 
+ARRAY:       RESW      #1000
+RETADR:      RESW      #1
+            END       FIRST

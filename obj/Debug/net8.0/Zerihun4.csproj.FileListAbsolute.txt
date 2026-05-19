@@ -1,0 +1,14 @@
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\bin\Debug\net8.0\Zerihun4.exe
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\bin\Debug\net8.0\Zerihun4.deps.json
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\bin\Debug\net8.0\Zerihun4.runtimeconfig.json
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\bin\Debug\net8.0\Zerihun4.dll
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\bin\Debug\net8.0\Zerihun4.pdb
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.AssemblyInfoInputs.cache
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.AssemblyInfo.cs
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.csproj.CoreCompileInputs.cache
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.dll
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\refint\Zerihun4.dll
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.pdb
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\Zerihun4.genruntimeconfig.cache
+C:\Users\kalea\Documents\Projects\Systems\Zerihun4\obj\Debug\net8.0\ref\Zerihun4.dll

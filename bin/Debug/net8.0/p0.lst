@@ -1,0 +1,65 @@
+-----------------------------------------PASS 2---------------------------------------------------------
+Line       LC              Label           Opcode          Operand         Object Code     Comment        
+1          00000           PROG:           START           0                                              
+2          00000           ONE:            FIX                             C4                             
+3          00001                           COMPR           S,T             A045                           
+4          00003                           LDL             10              09000A                         
+5          00006                           STB             TWO,X           7BA003                         
+6          00009                           SVC             5,X             B10005                         
+7          0000C           TWO:            NORM            ,X              CB0                            
+8          0000F           ALPHA:          STX             CHARLIE,X       13200D                         
+9          00012                           BASE            BAKER,X                                        
+10         00012                           LDB             BAKER,X         692004                         
+11         00015                           +SUB            CHARLIE,X       1F10001F                       
+12         00019           BAKER:          LDF             2048,X          710800                         
+13         0001C                           TD              CHARLIE,X       E32000                         
+14         0001F           CHARLIE:        +JEQ            ALPHA,X         3210000F                       
+15         00023           ONSE:           BYTE            0X0F,X          0F                             
+16         00024           TWSO:           BYTE            0C>,X           3E                             
+17         00025           TDHREE:         BYTE            0X26AE,X        26AE                           
+18         00027           FSDOUR:         BYTE            0C/-\,X         2F2D5C                         
+19         0002A           FIAVE:          RESW            #3,X                             partial line comment - ignore
+20         00033           SICX:           WORD            #97,X           000061                         
+21         00036           BUER:           RESB            #512,X                                         
+22         00236           SESVEN:         EQU             #1024,X                                        
+23         00236           BUSFEND:        EQU             *,X                                            
+24         00236           MAX:            EQU             BUSFEND-BUSFEND,X                                
+25         00236           BSSEGIN:        LDA             =0C+,X          03200F                         
+26         00239                           LDA             =0X05AF,X       03200D                         
+27         0023C                           LDA             =0CFEDCBA,X     03200C                         
+28         0023F                           LDA             =0XFEDCBA,X     03200F                         
+29         00242                           LDA             =0X05AF,X       032004                         
+30         00245                           LDA             =0C+,X          032000                         
+31         00248                           END             BEGIN,X                                        
+32         00248           *               =0C+            ,X              2B                             
+33         00249           *               =0X05AF         ,X              05AF                           
+34         0024B           *               =0CFEDCBA       ,X              464544434241                   
+35         00251           *               =0XFEDCBA       ,X              FEDCBA                         
+Program Length: 00254
+
+-----------------------------------------SYMBOL TABLE---------------------------------------------------------
+Symbol     Value      RFALG      IFLAG      MFALG     
+ALPH       0000F      True       1          0         
+BAKE       00019      True       1          0         
+BSSE       00236      True       1          0         
+BUER       00036      True       1          0         
+BUSF       00236      True       1          0         
+CHAR       0001F      True       1          0         
+FIAV       0002A      True       1          0         
+FSDO       00027      True       1          0         
+MAX        00000      True       1          0         
+ONE        00000      True       1          0         
+ONSE       00023      True       1          0         
+PROG       00000      True       1          0         
+SESV       00400      True       1          0         
+SICX       00033      True       1          0         
+TDHR       00025      True       1          0         
+TWO        0000C      True       1          0         
+TWSO       00024      True       1          0         
+
+-----------------------------------------Literal TABLE---------------------------------------------------------
+Literal    Length     VALUE      ADDRESS             
+=0C+       1          2B         00248
+=0X05AF    2          05AF       00249
+=0CFEDCBA  6          464544434241 0024B
+=0XFEDCBA  3          FEDCBA     00251

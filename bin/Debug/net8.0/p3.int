@@ -1,0 +1,28 @@
+Line       LC              Label           Opcode          Operand         Comment        
+1          00000           PROG:           START           0                              
+2          00000           FIRST:          +STL            RETADR                         
+3          00004                           LDA             #1                             
+4          00007                           CLEAR           X                              
+5          00009                           LDS             #3                             
+6          0000C                           LDT             #3000                          
+7          0000F           LOOP:           STA             ARRAY,X                        
+8          00012                           ADD             #1                             
+9          00015                           ADDR            S,X                            
+10         00017                           COMPR           X,T                            
+11         00019                           JLT             LOOP                           
+12         0001C                           +J              @RETADR                        
+13         00020           ARRAY:          RESW            #1000                          
+14         00BD8           RETADR:         RESW            #1                             
+15         00BDB                           END             FIRST                          
+Program Length: 00BDB
+
+SYMBOL TABLE:
+Symbol     Value      RFALG      IFLAG      MFALG     
+ARRA       00020      True       1          0         
+FIRS       00000      True       1          0         
+LOOP       0000F      True       1          0         
+PROG       00000      True       1          0         
+RETA       00BD8      True       1          0         
+
+Literal TABLE:
+Literal    Length     VALUE      ADDRESS             

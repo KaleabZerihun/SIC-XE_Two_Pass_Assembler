@@ -1,0 +1,24 @@
+-----------------------------------------PASS 2---------------------------------------------------------
+Line       LC              Label           Opcode          Operand         Object Code     Comment        
+1          00000           PROG:           START           0                                              
+2          00000                           EXTDEF          ONE,THREE                                      
+3          00000                           EXTREF          TWO,FOUR                                       
+4          00000           FIRST:          +LDF            TWO             7310000                        
+5          00004                           +ADDF           THREE           5B90000F                       
+6          00008                           +WD             FOUR+8          DF1008                         
+7          0000C           ONE:            WORD            102             000066                         
+8          0000F           THREE:          WORD            ONE-TWO         00000C                         
+9          00012                           END             FIRST                                          
+Program Length: 00012
+
+-----------------------------------------SYMBOL TABLE---------------------------------------------------------
+Symbol     Value      RFALG      IFLAG      MFALG     
+FIRS       00000      True       1          0         
+FOUR       00000      True       1          0         
+ONE        0000C      True       1          0         
+PROG       00000      True       1          0         
+THRE       0000F      True       1          0         
+TWO        00000      True       1          0         
+
+-----------------------------------------Literal TABLE---------------------------------------------------------
+Literal    Length     VALUE      ADDRESS             
