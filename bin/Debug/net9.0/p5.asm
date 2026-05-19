@@ -1,9 +1,0 @@
-PROG:     START   0 
-          EXTDEF  ONE,THREE 
-          EXTREF  TWO,FOUR 
-FIRST:    +LDF    TWO 
-          +ADDF   THREE,X 
-          +WD     FOUR+8 
-ONE:      WORD    102 
-THREE:    WORD    ONE-TWO 
-          END     FIRST 
